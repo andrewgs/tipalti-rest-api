@@ -1,5 +1,7 @@
-# Environment variables
+# Environment variables - NEVER COMMIT THESE
 .env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
@@ -28,8 +30,13 @@ venv/
 env/
 ENV/
 
-# Backup files
+# Backup files with potentially sensitive data
 backup_*.json
+*backup*.json
+production_backup_*.json
+
+# System status files
+system_status_*.json
 
 # IDE
 .vscode/
