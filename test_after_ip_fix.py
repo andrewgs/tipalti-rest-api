@@ -23,8 +23,8 @@ def quick_payee_test():
         {"id": "18827", "name": "leandro silva", "email": "trakinaboy85@gmail.com"}
     ]
     
-    payer_name = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    payer_name = "your_payer_name"
+    master_key = "your_master_key_here"
     
     success_count = 0
     

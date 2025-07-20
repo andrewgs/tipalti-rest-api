@@ -212,7 +212,7 @@ def main():
     print("=" * 60)
     
     base_payer = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    master_key = "your_master_key_here"
     
     # Test both environments
     for env_name, is_sandbox in [("Production", False), ("Sandbox", True)]:

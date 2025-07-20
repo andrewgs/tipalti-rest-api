@@ -20,8 +20,8 @@ def test_real_payee_ids():
     print("=" * 60)
     
     # Real credentials
-    payer_name = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    payer_name = "your_payer_name"
+    master_key = "your_master_key_here"
     is_sandbox = False
     
     # REAL payee IDs from dashboard
@@ -149,8 +149,8 @@ def try_list_all_payees():
     print("\n🔍 Trying to get ALL payees list...")
     print("=" * 50)
     
-    payer_name = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    payer_name = "your_payer_name"
+    master_key = "your_master_key_here"
     is_sandbox = False
     soap_url = f"https://api.{'sandbox.' if is_sandbox else ''}tipalti.com/v14/PayeeFunctions.asmx"
     

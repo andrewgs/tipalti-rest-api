@@ -28,8 +28,8 @@ def check_ip_whitelist_issue():
     print("🔍 Checking IP Whitelist Status...")
     
     # Test with a known real payee ID
-    payer_name = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    payer_name = "your_payer_name"
+    master_key = "your_master_key_here"
     test_payee_id = "37617"  # Real payee ID from dashboard
     
     try:

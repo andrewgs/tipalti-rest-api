@@ -51,8 +51,8 @@ def test_different_endpoints():
         "https://tipalti.com/api/v14/PayeeFunctions.asmx"
     ]
     
-    payer_name = "Uplify"
-    master_key = "j0YPT6AkeKPUl3z8+glS5S0mt4wjU9G4EuglK0/q/X659Qih7ds/GCBseRmmCDbS"
+    payer_name = "your_payer_name"
+    master_key = "your_master_key_here"
     test_payee_id = "37617"
     
     for i, endpoint in enumerate(endpoints, 1):
