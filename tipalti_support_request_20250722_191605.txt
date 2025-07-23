@@ -1,0 +1,33 @@
+
+TIPALTI SUPPORT REQUEST - MASS PAYEE DELETION
+=============================================
+Date: 2025-07-22 19:16:05
+Request Type: Mass Payee Deletion
+Reason: Compliance requirement - Russian payees removal
+
+SUMMARY:
+- Total payees to delete: 3003
+- Country filter: Russian Federation (RU)
+- Attached CSV: ru_payees_for_deletion_20250722_191605.csv
+
+STATUS BREAKDOWN:
+- ACTIVE: 2964 payees
+- BLOCKED_BY_TIPALTI: 39 payees
+
+
+BUSINESS JUSTIFICATION:
+Due to compliance requirements and sanctions, we need to remove all 
+Russian payees from our system. This includes both active and inactive 
+payees to ensure full compliance.
+
+REQUESTED ACTIONS:
+1. Permanently delete all payees listed in attached CSV
+2. Ensure all payment history is archived for audit purposes
+3. Block future registrations from Russian addresses
+4. Confirm completion with deletion report
+
+URGENCY: High Priority
+Contact: [Your contact information]
+
+CSV FILE ATTACHED: ru_payees_for_deletion_20250722_191605.csv
+Total records: 3003

@@ -18,13 +18,13 @@ class TipaltiRestAPI:
         self.client_secret = client_secret
         self.is_sandbox = is_sandbox
         
-        # Set API endpoints based on environment
+        # Set API endpoints based on environment (from official docs)
         if is_sandbox:
-            self.base_url = "https://api.sandbox.tipalti.com/v1"
-            self.auth_url = "https://api.sandbox.tipalti.com/v1/oauth/token"
+            self.base_url = "https://api.sandbox.tipalti.com/api/v1"
+            self.auth_url = "https://sso.sandbox.tipalti.com/connect/token"
         else:
-            self.base_url = "https://api.tipalti.com/v1"
-            self.auth_url = "https://api.tipalti.com/v1/oauth/token"
+            self.base_url = "https://api-p.tipalti.com/api/v1" 
+            self.auth_url = "https://sso.tipalti.com/connect/token"
         
         self.access_token = None
         self.token_expires_at = None
@@ -37,11 +37,12 @@ class TipaltiRestAPI:
             datetime.now() < self.token_expires_at):
             return self.access_token
         
-        # Request new access token
+        # Request new access token  
         payload = {
             'grant_type': 'client_credentials',
             'client_id': self.client_id,
-            'client_secret': self.client_secret
+            'client_secret': self.client_secret,
+            'scope': 'tipalti.api.payee.read tipalti.api.payee.write'  # Delete might be included in write
         }
         
         headers = {
@@ -73,12 +74,19 @@ class TipaltiRestAPI:
         # Get valid access token
         token = self._get_access_token()
         
-        # Prepare headers
-        headers = {
-            'Authorization': f'Bearer {token}',
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-        }
+        # Prepare headers (PATCH requires special Content-Type per official docs)
+        if method.upper() == 'PATCH':
+            headers = {
+                'Authorization': f'Bearer {token}',
+                'Content-Type': 'application/json-patch+json',  # Official Tipalti docs requirement
+                'Accept': 'application/json'
+            }
+        else:
+            headers = {
+                'Authorization': f'Bearer {token}',
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
         
         # Full URL
         url = f"{self.base_url}/{endpoint.lstrip('/')}"
@@ -89,7 +97,11 @@ class TipaltiRestAPI:
             elif method.upper() == 'POST':
                 response = requests.post(url, headers=headers, json=data)
             elif method.upper() == 'PATCH':
-                response = requests.patch(url, headers=headers, json=data)
+                response = requests.patch(url, headers=headers, json=data)  # Use JSON for json-patch+json
+            elif method.upper() == 'PUT':
+                response = requests.put(url, headers=headers, data=data)  # Use form data
+            elif method.upper() == 'DELETE':
+                response = requests.delete(url, headers=headers)
             else:
                 raise ValueError(f"Unsupported HTTP method: {method}")
             
@@ -115,21 +127,21 @@ class TipaltiRestAPI:
             params['status'] = status
         
         try:
-            response = self._make_request('GET', '/v1/payees', params=params)
+            response = self._make_request('GET', '/payees', params=params)
             
-            # Extract payees from response
-            payees = response.get('data', [])
+            # Extract payees from response (Tipalti uses 'items' not 'data')
+            payees = response.get('items', [])
             
             # Handle pagination - get all payees
             all_payees = payees.copy()
-            total_count = response.get('total_count', len(payees))
+            total_count = response.get('totalCount', len(payees))
             
             while len(all_payees) < total_count and len(payees) == limit:
                 offset += limit
                 params['offset'] = offset
                 
-                response = self._make_request('GET', '/v1/payees', params=params)
-                payees = response.get('data', [])
+                response = self._make_request('GET', '/payees', params=params)
+                payees = response.get('items', [])
                 all_payees.extend(payees)
             
             return all_payees
@@ -142,21 +154,48 @@ class TipaltiRestAPI:
         """Get detailed information for a specific payee"""
         
         try:
-            response = self._make_request('GET', f'/v1/payees/{payee_id}')
+            response = self._make_request('GET', f'/payees/{payee_id}')
             return response.get('data')
         except Exception as e:
             print(f"Failed to get payee details for {payee_id}: {e}")
             return None
     
     def update_payee(self, payee_id: str, data: Dict) -> bool:
-        """Update payee information"""
+        """Update payee information using official PATCH endpoint"""
         
         try:
-            response = self._make_request('PATCH', f'/v1/payees/{payee_id}', data=data)
-            return response.get('success', False)
+            response = self._make_request('PATCH', f'/payees/{payee_id}', data=data)
+            # If no exception raised, consider it successful
+            return True
         except Exception as e:
             print(f"Failed to update payee {payee_id}: {e}")
             return False
+    
+    def delete_payee(self, payee_id: str) -> Dict:
+        """Delete a payee by ID via REST API v2"""
+        try:
+            # Use v2 API endpoint - different base URL structure
+            if self.is_sandbox:
+                delete_url = f"https://api.sandbox.tipalti.com/v2/payees/{payee_id}"
+            else:
+                delete_url = f"https://api.tipalti.com/v2/payees/{payee_id}"
+            
+            # Get valid access token
+            token = self._get_access_token()
+            
+            # Prepare headers
+            headers = {
+                'Authorization': f'Bearer {token}',
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+            
+            response = requests.delete(delete_url, headers=headers)
+            response.raise_for_status()
+            
+            return {'success': True, 'message': 'Payee deleted successfully', 'response_code': response.status_code}
+        except requests.RequestException as e:
+            return {'success': False, 'message': f'API request failed: {e}'}
     
     def deactivate_payee(self, payee_id: str) -> bool:
         """Deactivate a payee"""

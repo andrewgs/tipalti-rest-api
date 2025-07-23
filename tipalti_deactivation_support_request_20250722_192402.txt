@@ -1,0 +1,34 @@
+
+TIPALTI SUPPORT REQUEST - MASS PAYEE STATUS CHANGE
+=================================================
+Date: 2025-07-22 19:24:02
+Request Type: Mass Payee Deactivation (Status Change)
+Priority: HIGH
+
+SUMMARY:
+- Action: Change status from ACTIVE to BLOCKED
+- Total payees: 2964 Russian payees
+- Country filter: beneficiaryCountryCode = 'RU'
+- Attached CSV: ru_payees_deactivation_request_20250722_192402.csv
+
+BUSINESS JUSTIFICATION:
+Due to compliance requirements, we need to deactivate all Russian payees
+by changing their status to BLOCKED. This will prevent future payments
+while preserving historical data for audit purposes.
+
+REQUESTED ACTIONS:
+1. Change status to BLOCKED for all payees listed in CSV
+2. Ensure payees cannot receive future payments
+3. Preserve payment history for compliance
+4. Provide confirmation report when completed
+
+TECHNICAL DETAILS:
+- API attempts failed with 500 errors on PATCH endpoint
+- Need manual status change through backend systems
+- Current payee statuses: 2964 ACTIVE, 39 already blocked
+
+URGENCY: High Priority - Compliance Requirement
+Contact: [Your contact information]
+
+CSV FILE ATTACHED: ru_payees_deactivation_request_20250722_192402.csv
+Total active records to deactivate: 2964
