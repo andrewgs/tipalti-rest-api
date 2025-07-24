@@ -1,0 +1,499 @@
+{
+  "timestamp": "2025-07-23T12:22:40.862955",
+  "environment": "production",
+  "total_payees": 100,
+  "status_statistics": {
+    "SUSPENDED": 76,
+    "ACTIVE": 23,
+    "BLOCKED_BY_TIPALTI": 1
+  },
+  "country_statistics": {
+    "RU": 77,
+    "EE": 1,
+    "--": 12,
+    "UA": 9,
+    "BY": 1
+  },
+  "country_status_breakdown": {
+    "RU": {
+      "SUSPENDED": 76,
+      "BLOCKED_BY_TIPALTI": 1
+    },
+    "EE": {
+      "ACTIVE": 1
+    },
+    "--": {
+      "ACTIVE": 12
+    },
+    "UA": {
+      "ACTIVE": 9
+    },
+    "BY": {
+      "ACTIVE": 1
+    }
+  },
+  "ru_payees_details": [
+    {
+      "id": "3412542488415314357590467",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "bookkokain@gmail.com"
+    },
+    {
+      "id": "3412673289215314357590604",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "uvelir1997@mail.ru"
+    },
+    {
+      "id": "3412673289215314357590605",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "iljavainer@gmail.com"
+    },
+    {
+      "id": "3412673289215314357590744",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "kuralenko.n@rbkgames.com"
+    },
+    {
+      "id": "3412673289215314357590851",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "cutites@mail.ru"
+    },
+    {
+      "id": "3412674174215314357590100",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "screamhigh@gmail.com"
+    },
+    {
+      "id": "3412674174215314357590348",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "germanvajnstejn@gmail.com"
+    },
+    {
+      "id": "3412674174215314357590544",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dmitrij_protasov@mail.ru"
+    },
+    {
+      "id": "3412674174215314357590591",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "kozlovilyaa@yandex.ru"
+    },
+    {
+      "id": "3412674174215314357590592",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "childrentrap@yandex.ru"
+    },
+    {
+      "id": "3412676899115314357590035",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "jncfcb@nxt.ru"
+    },
+    {
+      "id": "3412681563815314357590948",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "roskomcquinn@gmail.com"
+    },
+    {
+      "id": "3412684262815314357590251",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "kozlovilyaa@yandex.ru"
+    },
+    {
+      "id": "3412686962015314357590215",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "denya.pobeda@bk.ru"
+    },
+    {
+      "id": "3412689723415314357590150",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "s.baduna614@mail.ru"
+    },
+    {
+      "id": "3412689723415314357590645",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dmitrievitchbelykh@yandex.ru"
+    },
+    {
+      "id": "3412689723415314357590646",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "xopoche@gmail.com"
+    },
+    {
+      "id": "3412691534115314357590373",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "toruji199@gmail.com"
+    },
+    {
+      "id": "3412692440815314357590354",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "argipov01@mail.ru"
+    },
+    {
+      "id": "3412694232615314357590083",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dmitrievitchbelykh@yandex.ru"
+    },
+    {
+      "id": "3412695126915314357590082",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "syglypov@mail.ru"
+    },
+    {
+      "id": "3412695126915314357590830",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "mtgstalker@gmail.com"
+    },
+    {
+      "id": "3412696914515314357590057",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "narvedov@mail.ru"
+    },
+    {
+      "id": "3412696914515314357590543",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "vladimirodovsky@gmail.com"
+    },
+    {
+      "id": "3412697804715314357590034",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "krechetovartemka@yandex.ru"
+    },
+    {
+      "id": "3412697804715314357590759",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "anervdova@mail.ru"
+    },
+    {
+      "id": "3412698705315314357590503",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dmitrievitchbelyh@yandex.ru"
+    },
+    {
+      "id": "3412698705315314357590776",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "cakonzll@mail.ru"
+    },
+    {
+      "id": "3412698705315314357590779",
+      "name": "No name",
+      "status": "BLOCKED_BY_TIPALTI",
+      "email": "gleb.tomiloff2017@yandex.ru"
+    },
+    {
+      "id": "3412700504815314357590031",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "mollymidzori@mail.ru"
+    },
+    {
+      "id": "3412701386015314357590283",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "Meeter-YT@yandex.ru"
+    },
+    {
+      "id": "3412701386015314357590817",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "batutych@gmail.com"
+    },
+    {
+      "id": "3412705867315314357590457",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "batutych@gmail.com"
+    },
+    {
+      "id": "3412706757015314357590202",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dimacs@bk.ru"
+    },
+    {
+      "id": "3412707641915314357590204",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "spaun199617@mail.ru"
+    },
+    {
+      "id": "3412709420615314357590413",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "igor.kuminov@list.ru"
+    },
+    {
+      "id": "3412715708415314357590094",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "wanztwitch@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590120",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "roshenko3335@mail.ru"
+    },
+    {
+      "id": "3412717536115314357590191",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "artemchikbusiness@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590193",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "Voitovich_dmitry@mail.ru"
+    },
+    {
+      "id": "3412717536115314357590211",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "yurik1478@yandex.ru"
+    },
+    {
+      "id": "3412717536115314357590292",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "lim2k@yandex.ru"
+    },
+    {
+      "id": "3412717536115314357590313",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dinicetea@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590407",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "zakhar.kislov.2003@mail.ru"
+    },
+    {
+      "id": "3412721097815314357590072",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "levin.lev2016@yandex.ru"
+    },
+    {
+      "id": "3412745544615314357590506",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "trick3rattack@yandex.ru"
+    },
+    {
+      "id": "3412762151615314357590350",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "jordanann@yandex.ru"
+    },
+    {
+      "id": "3412773865715314357590904",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "svlema@mail.ru"
+    },
+    {
+      "id": "3412778402915314357590731",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "doublejager1@gmail.com"
+    },
+    {
+      "id": "3412780208915314357590023",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "nastolgia2000good@gmail.com"
+    },
+    {
+      "id": "3412781109515314357590784",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "sanches_615@mail.ru"
+    },
+    {
+      "id": "3412783836815314357590894",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "clicgo@mail.ru"
+    },
+    {
+      "id": "3412783836815314357590968",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "jenova1438@gmail.com"
+    },
+    {
+      "id": "3412783836815314357590971",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "yulya.smorodnikova@mail.ru"
+    },
+    {
+      "id": "3412787427015314357590747",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "mowieldyou@mail.ru"
+    },
+    {
+      "id": "3412825171515314357590484",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "aaaartemichhhh@mail.ru"
+    },
+    {
+      "id": "3412846501615314357590393",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "danmarkate@gmail.com"
+    },
+    {
+      "id": "3412929145315314357590272",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "RedRoses11111@yandex.ru"
+    },
+    {
+      "id": "3412931935915314357590603",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "kapaqq@yandex.ru"
+    },
+    {
+      "id": "3412932866215314357590309",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "watchfulcast@gmail.com"
+    },
+    {
+      "id": "3412933798115314357590272",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "perdalet30@gmail.com"
+    },
+    {
+      "id": "3412933798115314357590535",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "ogoltsov.dima@yandex.ru"
+    },
+    {
+      "id": "3412938493415314357590535",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "rubrick2014@yandex.ru"
+    },
+    {
+      "id": "3412940369415314357590360",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "valuzhenichh@gmail.com"
+    },
+    {
+      "id": "3412940369415314357590921",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "dang764@gmail.com"
+    },
+    {
+      "id": "3412943187715314357590477",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "d1nlystream@gmail.com"
+    },
+    {
+      "id": "3412948787615314357590361",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "duckstyle1993@gmail.com"
+    },
+    {
+      "id": "3412948787615314357590635",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "evergardenvika@gmail.com"
+    },
+    {
+      "id": "3412949713115314357590240",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "godhunt@maincast.com"
+    },
+    {
+      "id": "3412964573115314357590016",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "jturovv@mail.ru"
+    },
+    {
+      "id": "3412964573115314357590370",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "eturov@mail.ru"
+    },
+    {
+      "id": "3412968245715314357590656",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "JastWotchTV@yandex.ru"
+    },
+    {
+      "id": "3412972906115314357590784",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "vyazmin1990@mail.ru"
+    },
+    {
+      "id": "3412972906115314357590817",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "ivanlogathev200318@gmail.com"
+    },
+    {
+      "id": "3412984041215314357590983",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "rabotyaginilya@gmail.com"
+    },
+    {
+      "id": "3412984978515314357590088",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "Harter0000@Gmail.com"
+    },
+    {
+      "id": "3412990532915314357590221",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "email": "gera-26@mail.ru"
+    }
+  ]
+}

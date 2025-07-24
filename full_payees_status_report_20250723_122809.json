@@ -1,0 +1,742 @@
+{
+  "timestamp": "2025-07-23T12:28:09.138733",
+  "environment": "production",
+  "total_payees": 3900,
+  "status_statistics": {
+    "SUSPENDED": 2964,
+    "ACTIVE": 897,
+    "BLOCKED_BY_TIPALTI": 39
+  },
+  "country_statistics": {
+    "RU": 3003,
+    "EE": 39,
+    "--": 468,
+    "UA": 351,
+    "BY": 39
+  },
+  "country_status_breakdown": {
+    "RU": {
+      "SUSPENDED": 2964,
+      "BLOCKED_BY_TIPALTI": 39
+    },
+    "EE": {
+      "ACTIVE": 39
+    },
+    "--": {
+      "ACTIVE": 468
+    },
+    "UA": {
+      "ACTIVE": 351
+    },
+    "BY": {
+      "ACTIVE": 39
+    }
+  },
+  "ru_payees_count": 3003,
+  "active_payees_count": 897,
+  "suspended_payees_count": 2964,
+  "sample_ru_payees": [
+    {
+      "id": "3412542488415314357590467",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "bookkokain@gmail.com"
+    },
+    {
+      "id": "3412673289215314357590604",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "uvelir1997@mail.ru"
+    },
+    {
+      "id": "3412673289215314357590605",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "iljavainer@gmail.com"
+    },
+    {
+      "id": "3412673289215314357590744",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "kuralenko.n@rbkgames.com"
+    },
+    {
+      "id": "3412673289215314357590851",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "cutites@mail.ru"
+    },
+    {
+      "id": "3412674174215314357590100",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "screamhigh@gmail.com"
+    },
+    {
+      "id": "3412674174215314357590348",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "germanvajnstejn@gmail.com"
+    },
+    {
+      "id": "3412674174215314357590544",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dmitrij_protasov@mail.ru"
+    },
+    {
+      "id": "3412674174215314357590591",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "kozlovilyaa@yandex.ru"
+    },
+    {
+      "id": "3412674174215314357590592",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "childrentrap@yandex.ru"
+    },
+    {
+      "id": "3412676899115314357590035",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "jncfcb@nxt.ru"
+    },
+    {
+      "id": "3412681563815314357590948",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "roskomcquinn@gmail.com"
+    },
+    {
+      "id": "3412684262815314357590251",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "kozlovilyaa@yandex.ru"
+    },
+    {
+      "id": "3412686962015314357590215",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "denya.pobeda@bk.ru"
+    },
+    {
+      "id": "3412689723415314357590150",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "s.baduna614@mail.ru"
+    },
+    {
+      "id": "3412689723415314357590645",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dmitrievitchbelykh@yandex.ru"
+    },
+    {
+      "id": "3412689723415314357590646",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "xopoche@gmail.com"
+    },
+    {
+      "id": "3412691534115314357590373",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "toruji199@gmail.com"
+    },
+    {
+      "id": "3412692440815314357590354",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "argipov01@mail.ru"
+    },
+    {
+      "id": "3412694232615314357590083",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dmitrievitchbelykh@yandex.ru"
+    },
+    {
+      "id": "3412695126915314357590082",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "syglypov@mail.ru"
+    },
+    {
+      "id": "3412695126915314357590830",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "mtgstalker@gmail.com"
+    },
+    {
+      "id": "3412696914515314357590057",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "narvedov@mail.ru"
+    },
+    {
+      "id": "3412696914515314357590543",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "vladimirodovsky@gmail.com"
+    },
+    {
+      "id": "3412697804715314357590034",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "krechetovartemka@yandex.ru"
+    },
+    {
+      "id": "3412697804715314357590759",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "anervdova@mail.ru"
+    },
+    {
+      "id": "3412698705315314357590503",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dmitrievitchbelyh@yandex.ru"
+    },
+    {
+      "id": "3412698705315314357590776",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "cakonzll@mail.ru"
+    },
+    {
+      "id": "3412698705315314357590779",
+      "name": "No name",
+      "status": "BLOCKED_BY_TIPALTI",
+      "country": "RU",
+      "email": "gleb.tomiloff2017@yandex.ru"
+    },
+    {
+      "id": "3412700504815314357590031",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "mollymidzori@mail.ru"
+    },
+    {
+      "id": "3412701386015314357590283",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "Meeter-YT@yandex.ru"
+    },
+    {
+      "id": "3412701386015314357590817",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "batutych@gmail.com"
+    },
+    {
+      "id": "3412705867315314357590457",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "batutych@gmail.com"
+    },
+    {
+      "id": "3412706757015314357590202",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dimacs@bk.ru"
+    },
+    {
+      "id": "3412707641915314357590204",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "spaun199617@mail.ru"
+    },
+    {
+      "id": "3412709420615314357590413",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "igor.kuminov@list.ru"
+    },
+    {
+      "id": "3412715708415314357590094",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "wanztwitch@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590120",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "roshenko3335@mail.ru"
+    },
+    {
+      "id": "3412717536115314357590191",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "artemchikbusiness@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590193",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "Voitovich_dmitry@mail.ru"
+    },
+    {
+      "id": "3412717536115314357590211",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "yurik1478@yandex.ru"
+    },
+    {
+      "id": "3412717536115314357590292",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "lim2k@yandex.ru"
+    },
+    {
+      "id": "3412717536115314357590313",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "dinicetea@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590407",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "zakhar.kislov.2003@mail.ru"
+    },
+    {
+      "id": "3412721097815314357590072",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "levin.lev2016@yandex.ru"
+    },
+    {
+      "id": "3412745544615314357590506",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "trick3rattack@yandex.ru"
+    },
+    {
+      "id": "3412762151615314357590350",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "jordanann@yandex.ru"
+    },
+    {
+      "id": "3412773865715314357590904",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "svlema@mail.ru"
+    },
+    {
+      "id": "3412778402915314357590731",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "doublejager1@gmail.com"
+    },
+    {
+      "id": "3412780208915314357590023",
+      "name": "No name",
+      "status": "SUSPENDED",
+      "country": "RU",
+      "email": "nastolgia2000good@gmail.com"
+    }
+  ],
+  "sample_active_payees": [
+    {
+      "id": "3412542488415314357590608",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "EE",
+      "email": "kostya.shishkin@gmail.com"
+    },
+    {
+      "id": "3412542488415314357590645",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412542488415314357590687",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412666964915314357590698",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412673289215314357590356",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412673289215314357590416",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412675982615314357590553",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412676899115314357590211",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "kinotvvvv@gmail.com"
+    },
+    {
+      "id": "3412696028315314357590809",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "firneit@gmail.com"
+    },
+    {
+      "id": "3412698705315314357590775",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412699610615314357590780",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "firnitv@gmail.com"
+    },
+    {
+      "id": "3412703174915314357590511",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "tanker4c@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590247",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "BY",
+      "email": "vesel5@mail.ru"
+    },
+    {
+      "id": "3412784737215314357590222",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412876284315314357590041",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412931935915314357590936",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "antonyirinakirill@gmail.com"
+    },
+    {
+      "id": "3412935664215314357590871",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412943187715314357590260",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "carlion.inc@mail.ru"
+    },
+    {
+      "id": "3412944135215314357590171",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "999progamer@gmail.com"
+    },
+    {
+      "id": "3412947863415314357590675",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "funnyalexyt@gmail.com"
+    },
+    {
+      "id": "3412950646815314357590908",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412973812115314357590295",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "vladgushpet@gmail.com"
+    },
+    {
+      "id": "3412974743515314357590463",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412542488415314357590608",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "EE",
+      "email": "kostya.shishkin@gmail.com"
+    },
+    {
+      "id": "3412542488415314357590645",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412542488415314357590687",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412666964915314357590698",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412673289215314357590356",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412673289215314357590416",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412675982615314357590553",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412676899115314357590211",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "kinotvvvv@gmail.com"
+    },
+    {
+      "id": "3412696028315314357590809",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "firneit@gmail.com"
+    },
+    {
+      "id": "3412698705315314357590775",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412699610615314357590780",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "firnitv@gmail.com"
+    },
+    {
+      "id": "3412703174915314357590511",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "tanker4c@gmail.com"
+    },
+    {
+      "id": "3412717536115314357590247",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "BY",
+      "email": "vesel5@mail.ru"
+    },
+    {
+      "id": "3412784737215314357590222",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412876284315314357590041",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412931935915314357590936",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "antonyirinakirill@gmail.com"
+    },
+    {
+      "id": "3412935664215314357590871",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412943187715314357590260",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "carlion.inc@mail.ru"
+    },
+    {
+      "id": "3412944135215314357590171",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "999progamer@gmail.com"
+    },
+    {
+      "id": "3412947863415314357590675",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "funnyalexyt@gmail.com"
+    },
+    {
+      "id": "3412950646815314357590908",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412973812115314357590295",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "UA",
+      "email": "vladgushpet@gmail.com"
+    },
+    {
+      "id": "3412974743515314357590463",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412542488415314357590608",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "EE",
+      "email": "kostya.shishkin@gmail.com"
+    },
+    {
+      "id": "3412542488415314357590645",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412542488415314357590687",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    },
+    {
+      "id": "3412666964915314357590698",
+      "name": "No name",
+      "status": "ACTIVE",
+      "country": "--",
+      "email": ""
+    }
+  ]
+}
